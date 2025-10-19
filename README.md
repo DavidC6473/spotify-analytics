@@ -22,8 +22,10 @@ Kaggle: 30,000 Spotify songs — track/artist/album info, playlist (sub)genres, 
 
 ## Charts
 
-#### Tempo ranges per subgenre (stacked bars)
+<details>
+<summary>Tempo ranges per subgenre (stacked bars)</summary>
 ![Chart 1](./figures/tempo_buckets_by_subgenre.png)
+</details>
 
 #### Song length spread (boxplot)
 ![Chart 2](./figures/duration_distribution_by_subgenre.png)
