@@ -128,6 +128,3 @@ docker run --name spotifypg -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgr
 pip install -r requirements.txt
 # Notebook
 jupyter lab  # open notebooks/03_analysis.ipynb
-
-
-
