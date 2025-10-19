@@ -23,54 +23,101 @@ Kaggle: 30,000 Spotify songs — track/artist/album info, playlist (sub)genres, 
 ## Charts
 
 <details>
-<summary>Tempo ranges per subgenre (stacked bars)</summary>
-![Chart 1](./figures/tempo_buckets_by_subgenre.png)
+  <summary><strong>Tempo ranges per subgenre (stacked bars)</strong></summary>
+
+  <img src="./figures/tempo_buckets_by_subgenre.png" alt="Tempo ranges per subgenre (stacked bars)" width="900"/>
 </details>
 
-#### Song length spread (boxplot)
-![Chart 2](./figures/duration_distribution_by_subgenre.png)
+<details>
+  <summary><strong>Song length spread (boxplot)</strong></summary>
 
-#### Which features move together (incl. popularity)
-![Chart 3](./figures/feature_correlation_heatmap.png)
+  <img src="./figures/duration_distribution_by_subgenre.png" alt="Song length spread (boxplot)" width="900"/>
+</details>
 
-#### Louder generally = higher energy (with trendline)
-![Chart 4](./figures/loudness_vs_energy.png)
+<details>
+  <summary><strong>Which features move together (incl. popularity)</strong></summary>
 
-#### Top 5% vs others (grouped bars)
-![Chart 5](./figures/hit_vs_nonhit_feature_profile.png)
+  <img src="./figures/feature_correlation_heatmap.png" alt="Feature correlation heatmap" width="900"/>
+</details>
 
-#### Do instrumentals perform? (binned line)
-![Chart 6](./figures/instrumentalness_vs_popularity.png)
+<details>
+  <summary><strong>Louder generally = higher energy (with trendline)</strong></summary>
 
-#### Bigger isn’t always better (bubble plot)
-![Chart 7](./figures/subgenre_size_vs_popularity_bubble.png)
+  <img src="./figures/loudness_vs_energy.png" alt="Loudness vs Energy (with trendline)" width="900"/>
+</details>
 
-#### Output vs average popularity
-![Chart 8](./figures/artist_productivity_vs_popularity.png)
+<details>
+  <summary><strong>Top 5% vs others (grouped bars)</strong></summary>
 
-#### Quick “mood map”
-![Chart 9](./figures/energy_danceability_quadrants.png)
+  <img src="./figures/hit_vs_nonhit_feature_profile.png" alt="Top 5% vs others (grouped bars)" width="900"/>
+</details>
 
-#### Playlist size bins vs avg popularity (violin)
-![Chart 10](./figures/playlist_size_vs_popularity_violin.png)
+<details>
+  <summary><strong>Do instrumentals perform? (binned line)</strong></summary>
 
-#### Danceability/Energy/Valence profiles
-![Chart 11](./figures/subgenre_feature_profile.png)
+  <img src="./figures/instrumentalness_vs_popularity.png" alt="Instrumentalness vs Popularity (binned line)" width="900"/>
+</details>
 
-#### p50/p75/p90 popularity by subgenre
-![Chart 12](./figures/subgenre_popularity_distribution.png)
+<details>
+  <summary><strong>Bigger isn’t always better (bubble plot)</strong></summary>
 
-#### Common musical keys/modes
-![Chart 13](./figures/keys_modes_overall.png)
+  <img src="./figures/subgenre_size_vs_popularity_bubble.png" alt="Subgenre size vs popularity (bubble plot)" width="900"/>
+</details>
 
-#### Avgerage popularity for artists (min tracks rule)
-![Chart 14](./figures/top_artists_avg_pop.png)
+<details>
+  <summary><strong>Output vs average popularity</strong></summary>
 
-#### Mood vs intensity scatter
-![Chart 15](./figures/scatter_valence_vs_energy.png)
+  <img src="./figures/artist_productivity_vs_popularity.png" alt="Artist productivity vs average popularity" width="900"/>
+</details>
 
-#### Feature trends across years (where dates exist)
-![Chart 16](./figures/trends_by_release_year.png)
+<details>
+  <summary><strong>Quick “mood map”</strong></summary>
+
+  <img src="./figures/energy_danceability_quadrants.png" alt="Energy vs Danceability quadrants" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Playlist size bins vs avg popularity (violin)</strong></summary>
+
+  <img src="./figures/playlist_size_vs_popularity_violin.png" alt="Playlist size vs average popularity (violin)" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Danceability / Energy / Valence profiles</strong></summary>
+
+  <img src="./figures/subgenre_feature_profile.png" alt="Danceability / Energy / Valence profiles" width="900"/>
+</details>
+
+<details>
+  <summary><strong>p50 / p75 / p90 popularity by subgenre</strong></summary>
+
+  <img src="./figures/subgenre_popularity_distribution.png" alt="Popularity quantiles by subgenre" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Common musical keys / modes</strong></summary>
+
+  <img src="./figures/keys_modes_overall.png" alt="Common musical keys and modes" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Average popularity for artists (min tracks rule)</strong></summary>
+
+  <img src="./figures/top_artists_avg_pop.png" alt="Average popularity for artists (minimum tracks)" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Mood vs intensity scatter</strong></summary>
+
+  <img src="./figures/scatter_valence_vs_energy.png" alt="Valence vs Energy scatter" width="900"/>
+</details>
+
+<details>
+  <summary><strong>Feature trends across years (where dates exist)</strong></summary>
+
+  <img src="./figures/trends_by_release_year.png" alt="Audio feature trends by release year" width="900"/>
+</details>
+
 
 
 ## Run it
