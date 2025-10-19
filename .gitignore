@@ -1,6 +1,23 @@
+# Environment and virtual env
 .venv/
 .env
-*.ipynb_checkpoints/
+.env.example
+
+# Python cache / build
 __pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+*.ipynb_checkpoints/
+
+# Data archives
 data/*.zip
+data/*.rar
+data/*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Files
 start.txt
